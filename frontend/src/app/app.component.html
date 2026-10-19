@@ -36,7 +36,7 @@
   @if (result) {
     <section class="result">
       <h2>Prediction result</h2>
-      <p><strong>{{result.prediction === 1 ? 'Higher risk: readmission within 30 days' : 'Lower risk: no readmission within 30 days'}}</strong></p>
+      <p><strong>{{result.prediction === 1 ? 'Higher risk: readmission within 30 days ' : 'Lower risk: no readmission within 30 days'}}</strong></p>
       @if (result.probabilities) {
         <p>Probability of readmission within 30 days:
           {{(result.probabilities[1] * 100).toFixed(1)}}%</p>
