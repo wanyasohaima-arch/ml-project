@@ -1,0 +1,19 @@
+# Python and local environments
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+# Angular
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+# OS / editor
+.DS_Store
+Thumbs.db
+# Large raw dataset (the model and a small sample stay)
+data/diabetic_data.csv
+# Logs
+*.log
